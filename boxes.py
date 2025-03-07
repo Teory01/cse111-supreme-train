@@ -24,7 +24,7 @@ num_boxes = math.ceil(num_items / items_per_box)
 
 print()
 
-#display the results for the user to see
+#display the results for the user to see the results
 
 print(f"for {num_items} items, packing {items_per_box}"
     f" items in each box, you will need {num_boxes} boxes.")
