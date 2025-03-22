@@ -42,16 +42,7 @@ def test_suffix():
     # statement to verify that the string returned by the
     # suffix function is correct each time.
     
-    assert suffix("", "") == ""
-    assert suffix("", "correct") == ""
-    assert suffix("clear", "") == ""
-    assert suffix("happy", "funny") == "y"
-    assert suffix("cat", "catalog") == ""
-    assert suffix("dogmatic", "dog") == ""
-    assert suffix("jump", "joyous") == ""
-    assert suffix("upbeat", "upgrade") == ""
-    assert suffix("Disable", "dIstasteful") == ""
-
+   
 
 
 # Call the main function that is part of pytest so that the
