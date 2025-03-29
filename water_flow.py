@@ -63,6 +63,7 @@ HOUSEHOLD_VELOCITY = 1.75            # (meters / second)
 
 def kpa_to_psi(kpa):
     """Convert kilopascals (kPa) to pounds per square inch (psi)."""
+    # Multiply the input value by the conversion factor to get the result
     return kpa * 14.5038
 
 
