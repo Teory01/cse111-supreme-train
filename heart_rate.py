@@ -37,3 +37,6 @@ fastest_rate = 0.85 * max_rate
 print("When you exercise to strengthen your heart, you should")
 print(f"keep your heart rate between {slowest_rate:.0f} and {fastest_rate:.0f}")
 print("beats per minute.")
+
+
+#end
