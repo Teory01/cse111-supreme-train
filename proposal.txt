@@ -10,17 +10,54 @@ CSE 111 Proposal for a Student Chosen Program
     knowledge.)
 
 1. What is the title of your program?
+Word Frequency Counter
 
 2. What real-world problem will your program address or help to solve?
+This program addresses the real-world problem of analyzing text documents by counting how often each word appears. Word frequency analysis is essential in fields such as natural language processing (NLP), search engine optimization (SEO), content summarization, and linguistic research. By processing a given text file, the program will:
 
+Remove punctuation and normalize text (convert to lowercase)
+
+Count the occurrences of each word
+
+Display results in a sorted manner for easy interpretation
+
+This tool can help users identify key terms, detect overused words, or analyze writing patterns in documents such as essays, research papers, or website content.
 3. What will you learn from developing this program?
+By implementing this program, the following learning objectives will be achieved:
+
+Reading and processing text files in Python.
+
+Cleaning and normalizing text data (handling punctuation and case sensitivity).
+
+Implementing word frequency counting using dictionaries.
+
+Sorting and displaying results in a user-friendly format.
+
+Writing test functions to ensure program correctness.
 
 4. What Python modules will your program use?
+The program will utilize the following Python modules:
+
+re (Regular Expressions) – for text cleaning (removing punctuation).
+
+collections.defaultdict (Optional) – for efficient word counting.
 
     (Some examples are: csv, datetime, functools, matplotlib, math,
     pandas, pytest, random, requests, and tkinter.)
 
 5. List the names of functions you will need?
+The program will be structured into the following functions:
+
+read_file(filename) – Reads the content of a text file.
+
+clean_text(text) – Removes punctuation and converts text to lowercase.
+
+count_words(word_list) – Counts the frequency of each word.
+
+display_results(word_counts) – Prints the results in descending order of frequency.
+
+main() – Coordinates the program execution.
+
 
     (Remember that the most reusable functions don't get user input and
     don't print results but instead have parameters and return a result.
@@ -34,4 +71,11 @@ CSE 111 Proposal for a Student Chosen Program
     to have parameters and return a result.)
 
 6. List the names of the test functions you will write.
+To ensure correctness, the following test functions will be implemented:
+
+test_read_file() – Verifies file reading functionality.
+
+test_clean_text() – Tests punctuation removal and case normalization.
+
+test_count_words() – Validates word frequency counting accuracy.
 
